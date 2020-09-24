@@ -1,5 +1,4 @@
 package mx.com.gm.peliculas;
-
 public class CPJLaboratorioFinal {
     public static void main(String[] args) {
 
