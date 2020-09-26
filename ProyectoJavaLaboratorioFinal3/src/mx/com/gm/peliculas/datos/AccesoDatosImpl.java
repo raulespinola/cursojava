@@ -51,7 +51,7 @@ public class AccesoDatosImpl implements IAccesoDatos {
                     System.out.println("Se ha escrito nueva informacion dentro del archivo: " + pelicula);
                 } catch (IOException e) {
             e.printStackTrace();
-            throw new EscrituraDatosExcepciones("Se produjo una excepcion al escribir peliculas:" + e.getMessage());
+            throw new EscrituraDatosExcepciones("Se produjo un error al escribir peliculas:" + e.getMessage());
         }
     }
 
@@ -76,10 +76,10 @@ public class AccesoDatosImpl implements IAccesoDatos {
 
         } catch (FileNotFoundException e) {
             e.printStackTrace();
-            throw new LecturaDatosExcepciones ("Se produjo una excepcion al buscar peliculas:" + e.getMessage());
+            throw new LecturaDatosExcepciones ("Se produjo un error al buscar peliculas:" + e.getMessage());
         } catch (IOException e) {
             e.printStackTrace();
-            throw new LecturaDatosExcepciones ("Se produjo una excepcion al buscar peliculas:" + e.getMessage());
+            throw new LecturaDatosExcepciones ("Se produjo un error al buscar peliculas:" + e.getMessage());
         }
         return resultado;
     }
