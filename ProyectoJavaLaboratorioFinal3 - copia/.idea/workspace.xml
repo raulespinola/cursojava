@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0018bc3c-b6c4-49f4-9f2f-6ebfeacb6d78" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/mx/com/gm/peliculas/presentacion/CatalogoPeliculasPresentacion.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProyectoJavaLaboratorioFinal/mx/com/gm/peliculas/datos/AccesoDatosImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProyectoJavaLaboratorioFinal/mx/com/gm/peliculas/datos/AccesoDatosImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/peliculas.txt" beforeDir="false" afterPath="$PROJECT_DIR$/peliculas.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/mx/com/gm/peliculas/datos/AccesoDatosImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mx/com/gm/peliculas/datos/AccesoDatosImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mx/com/gm/peliculas/presentacion/CatalogoPeliculasPresentacion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mx/com/gm/peliculas/presentacion/CatalogoPeliculasPresentacion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mx/com/gm/peliculas/negocio/CatalogoPeliculasImpl.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,22 +111,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="488" y="73" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1600978525987" />
-    <state width="1306" height="187" key="GridCell.Tab.0.bottom" timestamp="1601164910720">
+    <state width="1306" height="176" key="GridCell.Tab.0.bottom" timestamp="1601080213121">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1306" height="187" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1601164910720" />
-    <state width="1306" height="187" key="GridCell.Tab.0.center" timestamp="1601164910720">
+    <state width="1306" height="176" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1601080213121" />
+    <state width="1306" height="176" key="GridCell.Tab.0.center" timestamp="1601080213121">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1306" height="187" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1601164910720" />
-    <state width="1306" height="187" key="GridCell.Tab.0.left" timestamp="1601164910719">
+    <state width="1306" height="176" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1601080213121" />
+    <state width="1306" height="176" key="GridCell.Tab.0.left" timestamp="1601080213121">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1306" height="187" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1601164910719" />
-    <state width="1306" height="187" key="GridCell.Tab.0.right" timestamp="1601164910720">
+    <state width="1306" height="176" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1601080213121" />
+    <state width="1306" height="176" key="GridCell.Tab.0.right" timestamp="1601080213121">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1306" height="187" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1601164910720" />
+    <state width="1306" height="176" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1601080213121" />
     <state x="163" y="0" key="SettingsEditor" timestamp="1600382410692">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
