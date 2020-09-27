@@ -13,8 +13,7 @@ public class CatalogoPeliculasPresentacion {
         ICatalogoPeliculas catalogo = new CatalogoPeliculasImpl();
 
         while ( opcion!= 0) {
-            System.out.println("\n"
-                    + "BIENVENIDO A CINEMAX TU CATALOGO DE PELICULAS \n"
+            System.out.println("BIENVENIDO A CINEMAX TU CATALOGO DE PELICULAS \n"
                     + "SELECCIONAR UNA OPCION \n"
                     + " 1.INICIAR CATALOGO DE PELICULAS \n"
                     + " 2.AGREGAR PELICULA \n"
@@ -39,16 +38,12 @@ public class CatalogoPeliculasPresentacion {
                     break;
                 case 4:
                     System.out.println("Ha seleccionado Buscar pelicula");
-                    System.out.println("Ingrese el nombre de la pelicula a buscar");
+                    System.out.println("Ingrese el nombre de la Pelica a buscar");
                     var buscar = scanner.nextLine();
                     catalogo.buscarPeliculas(buscar);
                     break;
                 case 0:
-                    System.out.println("GRACIAS POR TU VISITA. ¡HASTA PRONTO!");
-                    break;
-                default:
-                    System.out.println("Vuelva a intentarlo.La opcion ingresada no es correcta. ");
-                    break;
+                    System.out.println("GRACIAS POR TU VISITA. HASTA PRONTO");
             }
         }
     }

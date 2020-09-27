@@ -33,10 +33,10 @@ public class AccesoDatosImpl implements IAccesoDatos {
             entrada.close();
         } catch (FileNotFoundException a) {
             a.printStackTrace();
-            throw new LecturaDatosExcepciones("Se produjo un error al listar peliculas:" + a.getMessage());
+            throw new LecturaDatosExcepciones("Se produjo una excepcion al listar peliculas:" + a.getMessage());
         } catch (IOException a) {
             a.printStackTrace();
-            throw new LecturaDatosExcepciones("Se produjo un error al listar peliculas:" + a.getMessage());
+            throw new LecturaDatosExcepciones("Se produjo una excepcion al listar peliculas:" + a.getMessage());
         }
         return peliculas;
     }
@@ -48,7 +48,7 @@ public class AccesoDatosImpl implements IAccesoDatos {
             PrintWriter salida = new PrintWriter (new FileWriter(archivo, anexar));
                     salida.println(pelicula.toString());
                     salida.close();
-                    System.out.println("Ha ingresado la pelicula: " + pelicula);
+                    System.out.println("Se ha escrito nueva informacion dentro del archivo: " + pelicula);
                 } catch (IOException e) {
             e.printStackTrace();
             throw new EscrituraDatosExcepciones("Se produjo un error al escribir peliculas:" + e.getMessage());
@@ -70,7 +70,7 @@ public class AccesoDatosImpl implements IAccesoDatos {
                     return "La pelicula: " + linea + ". Ha sido  encontrada en el numero de indice: " + indice;
                 }
                 linea = entrada.readLine();
-                indice ++;
+                indice = indice + 1;
             }
             entrada.close();
 
@@ -104,7 +104,7 @@ public class AccesoDatosImpl implements IAccesoDatos {
         File archivo = new File(nombreArchivo);
         if (archivo.exists()){
             archivo.delete();
-            //System.out.println("El archivo ha sido borrado");
+            System.out.println("El archivo ha sido borrado");
 
         }
     }
